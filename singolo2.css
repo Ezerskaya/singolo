@@ -7,7 +7,18 @@ button {
 }
 
 .portfolio {
+    position: relative;
     background-color: #2d303a;
+    padding-bottom: 44px;
+}
+
+.portfolio:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 6px;
+    background-color: #323746;
 }
 
 .portfolio__wrapper {
@@ -33,6 +44,7 @@ button {
 
 .portfolio__sorting {
     display: flex;
+    margin-bottom: 19px;
 }
 
 .button:last-child {
@@ -66,7 +78,7 @@ button {
 .portfolio__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .portfolio__cards .card {
@@ -88,4 +100,8 @@ button {
     color: #666d89;
     font-weight: 900;
     letter-spacing: -.1px;
+}
+
+.about-us__cards {
+    display: flex;
 }
