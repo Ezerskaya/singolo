@@ -161,7 +161,6 @@ a {
 .slider:after {
     content: '';
     position: absolute;
-    bottom: 253px;
     z-index: 1;
     height: 15px;
     width: 100%;
@@ -276,12 +275,8 @@ a {
     margin-right: 0;
 }
 
-.describe__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 21px;
-}
+
+
 
 .describe__icon {
     width: 59px;
